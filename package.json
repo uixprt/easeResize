@@ -1,0 +1,13 @@
+{
+  "name": "sharp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sharp": "sharp resize 7000 --fit inside -i ./images/**/* -o ./dist"
+  },
+  "devDependencies": {
+    "sharp": "^0.24.1",
+    "sharp-cli": "^1.13.1"
+  }
+}
